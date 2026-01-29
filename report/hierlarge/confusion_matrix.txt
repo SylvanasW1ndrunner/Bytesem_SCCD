@@ -1,0 +1,7 @@
+  True Positives (TP): 21
+  True Negatives (TN): 167
+  False Positives (FP): 7 (Type I Error)
+  False Negatives (FN): 5 (Type II Error)
+  Precision: 0.7500
+  Recall: 0.8077
+  F1 Score: 0.7778

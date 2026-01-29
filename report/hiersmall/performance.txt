@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+   Not Clone       0.97      0.98      0.97       171
+       Clone       0.88      0.79      0.84        29
+
+    accuracy                           0.95       200
+   macro avg       0.93      0.89      0.91       200
+weighted avg       0.95      0.95      0.95       200
+
+--- 各类型克隆的独立召回率 (Recall) ---
+  Type-3 Recall: 1.0000 (2 / 2)
+  Type-4 Recall: 0.7778 (21 / 27)

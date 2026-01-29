@@ -1,0 +1,43 @@
+============================================================
+Overall Clone Detection Performance (Binary)
+============================================================
+
+              precision    recall  f1-score   support
+
+   Not Clone       0.97      0.94      0.96       171
+       Clone       0.71      0.83      0.76        29
+
+    accuracy                           0.93       200
+   macro avg       0.84      0.88      0.86       200
+weighted avg       0.93      0.93      0.93       200
+
+Overall F1 Scores:
+  Macro-F1:    0.8587
+  Micro-F1:    0.9250
+  Weighted-F1: 0.9274
+
+============================================================
+Confusion Matrix Details
+============================================================
+  True Positives (TP): 24
+  True Negatives (TN): 161
+  False Positives (FP): 10
+  False Negatives (FN): 5
+
+============================================================
+Per-Type Clone Detection Performance
+(Evaluated only on groundtruth = 1 samples)
+============================================================
+
+Type-3:
+  Support:   None
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+
+Type-4:
+  Support:   None
+  Precision: 1.0000
+  Recall:    0.8148
+  F1-Score:  0.8980
+
